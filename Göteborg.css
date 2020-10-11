@@ -1,0 +1,50 @@
+
+body {
+    margin: 2em;
+}
+
+.header {
+    page-break-after: auto;
+    text-align: center;
+    background: #1a70bc;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #1a70bc;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: inline-end;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a.active {
+    background-color: #3047dd;
+    color: white;
+  }
